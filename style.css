@@ -20,13 +20,13 @@ html{
     box-shadow:0px 0px 5px 5px rgba(255,255,255,0.3);
     overflow:hidden;
 }
+#lightchanger{
+    color:white;
+    font-weight:bold;
+}
 .calculatordiv .buttons div{
     width:100%;
     margin:0.5%;
-}
-p{
-    color:white;
-    font-weight:bold;
 }
 .inputdiv{
     width:100%;
@@ -37,7 +37,7 @@ p{
 }
 button{
     background:linear-gradient(rgb(60,60,60),rgb(40,40,40));
-    color:lightgray;
+    color:white;
     box-shadow:0px 0px 1px rgba(255,255,255,0.9);
     width:100%;
     border-radius:3px;
@@ -49,19 +49,176 @@ button{
 button:hover{
     box-shadow:3px 3px 3px rgba(255,255,255,0.9);
     transform:translateX(-3px);
-    color:white;
 }
 #inputdiv{
     background-color:darkslategray;
     border-style:solid;
-    border-color:lightgray;
+    border-color:white;
     border-radius:3px;
     overflow:hidden;
     block-size:50px;
 }
 #input{
-    color:black;
+    color:white;
+    font-weight:bold;
+    font-size:x-large;
+    margin-top:3%;
     margin-left:3%;
+}
+#modeToggle{
+    cursor:pointer;
+}
+.blue-theme .calculatordiv{
+    box-shadow:0px 0px 5px 5px rgba(0,0,255,0.3);
+}
+.blue-theme button{
+    color:blue;
+    box-shadow:0px 0px 1px rgba(0,0,255,0.9);
+}
+.blue-theme button:hover{
+    box-shadow:3px 3px 3px rgba(0,0,255,0.9);
+}
+.blue-theme span{
+    color:blue;
+}
+.blue-theme #input{
+    color:blue;
+}
+.blue-theme #inputdiv{
+    border-color:blue;
+}
+.red-theme .calculatordiv{
+    box-shadow:0px 0px 5px 5px rgba(255,0,0,0.3);
+}
+.red-theme button{
+    color:red;
+    box-shadow:0px 0px 1px rgba(255,0,0,0.9);
+}
+.red-theme button:hover{
+    box-shadow:3px 3px 3px rgba(255,0,0,0.9);
+}
+.red-theme span{
+    color:red;
+}
+.red-theme #input{
+    color:red;
+}
+.red-theme #inputdiv{
+    border-color:red;
+}
+.violet-theme .calculatordiv{
+    box-shadow:0px 0px 5px 5px rgba(138,43,226,0.3);
+}
+.violet-theme button{
+    color:blueviolet;
+    box-shadow:0px 0px 1px rgba(138,43,226,0.9);
+}
+.violet-theme button:hover{
+    box-shadow:3px 3px 3px rgba(138,43,226,0.9);
+}
+.violet-theme span{
+    color:blueviolet;
+}
+.violet-theme #input{
+    color:blueviolet;
+}
+.violet-theme #inputdiv{
+    border-color:blueviolet;
+}
+.green-theme .calculatordiv{
+    box-shadow:0px 0px 5px 5px rgba(50,205,50,0.3);
+}
+.green-theme button{
+    color:limegreen;
+    box-shadow:0px 0px 1px rgba(50,205,50,0.9);
+}
+.green-theme button:hover{
+    box-shadow:3px 3px 3px rgba(50,205,50,0.9);
+}
+.green-theme span{
+    color:limegreen;
+}
+.green-theme #input{
+    color:limegreen;
+}
+.green-theme #inputdiv{
+    border-color:limegreen;
+}
+.yellow-theme .calculatordiv{
+    box-shadow:0px 0px 5px 5px rgba(255,255,0,0.3);
+}
+.yellow-theme button{
+    color:yellow;
+    box-shadow:0px 0px 1px rgba(255,255,0,0.9);
+}
+.yellow-theme button:hover{
+    box-shadow:3px 3px 3px rgba(255,255,0,0.9);
+}
+.yellow-theme span{
+    color:yellow;
+}
+.yellow-theme #input{
+    color:yellow;
+}
+.yellow-theme #inputdiv{
+    border-color:yellow;
+}
+.orange-theme .calculatordiv{
+    box-shadow:0px 0px 5px 5px rgba(255,140,0,0.3);
+}
+.orange-theme button{
+    color:darkorange;
+    box-shadow:0px 0px 1px rgba(255,140,0,0.9);
+}
+.orange-theme button:hover{
+    box-shadow:3px 3px 3px rgba(255,140,0,0.9);
+}
+.orange-theme span{
+    color:darkorange;
+}
+.orange-theme #input{
+    color:darkorange;
+}
+.orange-theme #inputdiv{
+    border-color:darkorange;
+}
+.pink-theme .calculatordiv{
+    box-shadow:0px 0px 5px 5px rgba(255,20,147,0.3);
+}
+.pink-theme button{
+    color:deeppink;
+    box-shadow:0px 0px 1px rgba(255,20,147,0.9);
+}
+.pink-theme button:hover{
+    box-shadow:3px 3px 3px rgba(255,20,147,0.9);
+}
+.pink-theme span{
+    color:deeppink;
+}
+.pink-theme #input{
+    color:deeppink;
+}
+.pink-theme #inputdiv{
+    border-color:deeppink;
+}
+.skyblue-theme .calculatordiv{
+    box-shadow:0px 0px 5px 5px rgba(0,191,255,0.3);
+}
+.skyblue-theme button{
+    color:deepskyblue;
+    box-shadow:0px 0px 1px rgba(0,191,255,0.9);
+}
+.skyblue-theme button:hover{
+    box-shadow:3px 3px 3px rgba(0,191,255,0.9);
+}
+.skyblue-theme span{
+    color:deepskyblue;
+}
+.skyblue-theme #input{
+    color:deepskyblue;
+}
+.skyblue-theme #inputdiv{
+    border-color:deepskyblue;
 }
 @media(max-width:800px){
     .calculatordiv{
